@@ -19,7 +19,7 @@ function Card({ item }) {
     <div className="event-card flex flex-col gap-1 items-center duration-300 rounded-lg group">
       <div className="relative w-full rounded-t-lg">
         <img
-          className="w-full h-36 md:h-220 object-cover rounded-t-lg"
+          className="w-full  md:h-220 object-cover rounded-t-lg"
           src={item.image}
           alt={item.title + " image"}
         />
